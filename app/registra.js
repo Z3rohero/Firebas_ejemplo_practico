@@ -17,7 +17,8 @@ ingresa.addEventListener('submit', async (e) => {
     modal.hide()
 
   } catch (error) {
-    console.log(error)
+    console.log(error.message)
+    
   }
 
 
